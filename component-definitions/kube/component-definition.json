@@ -315,7 +315,6 @@
                 ]
               },
               {
-                "uuid": "d6f74108-fb50-4897-9a42-87b00423d0be",
                 "control-id": "ac-3",
                 "description": "",
                 "props": [
@@ -568,7 +567,6 @@
                 "statements": [
                   {
                     "statement-id": "cm-8.3_smt.a",
-                    "uuid": "cb409160-fd56-4f8d-a17e-a965d70d5f5c",
                     "description": "",
                     "props": [
                       {
@@ -661,7 +659,7 @@
           }
         ]
       },
-      {
+      {g
         "uuid": "16e7040e-2a66-462c-bfd2-321ef7a3803a",
         "type": "validation",
         "title": "Kyverno",
