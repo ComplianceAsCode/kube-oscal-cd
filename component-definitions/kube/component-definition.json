@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "104b4e22-b85b-4d83-928d-ed0152e9eae9",
+    "uuid": "9b6eb366-0ddf-4f89-94b9-a60bb40acd9a",
     "metadata": {
       "title": "Component Definition for Kube",
-      "last-modified": "2024-05-01T18:20:00+00:00",
+      "last-modified": "2024-05-01T18:45:58+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "4795d13f-9c7e-4e1e-9d8d-e54c826ba25d",
+        "uuid": "0e902a4c-1b39-4d0f-a33e-2db458e8a2c3",
         "type": "software",
         "title": "Kubernetes",
         "description": "Kubernetes",
@@ -281,18 +281,18 @@
         ],
         "control-implementations": [
           {
-            "uuid": "5f4486dc-bebe-430e-a89a-bbc4cc329ed1",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+            "uuid": "398f48b2-2c9f-4586-a983-1266de0b8dff",
+            "source": "catalogs/NIST_SP-800-53_rev5_HIGH/NIST_SP-800-53_rev5_HIGH-baseline-resolved-profile_catalog.json",
             "description": "NIST r5 ",
             "implemented-requirements": [
               {
-                "uuid": "00b18379-00c5-469c-a920-952fdd23b2d8",
+                "uuid": "45b59b0c-5d78-448c-9ded-7d5ba63d00ab",
                 "control-id": "cm-8.3",
                 "description": "",
                 "statements": [
                   {
                     "statement-id": "cm-8.3_smt.a",
-                    "uuid": "c60e44cc-18ce-4145-ae06-2271900737fc",
+                    "uuid": "d7bcf15a-4f4b-4327-97e7-e7f0747948fa",
                     "description": "",
                     "props": [
                       {
@@ -315,7 +315,7 @@
                 ]
               },
               {
-                "uuid": "3324627a-daf8-4d0c-99a7-7bf0617abe04",
+                "uuid": "d6f74108-fb50-4897-9a42-87b00423d0be",
                 "control-id": "ac-3",
                 "description": "",
                 "props": [
@@ -327,7 +327,7 @@
                 ]
               },
               {
-                "uuid": "e246fb06-4beb-4788-9704-feb7982aae53",
+                "uuid": "eb9a4be2-8bc1-474e-8824-40e0051e9e59",
                 "control-id": "ac-6",
                 "description": "",
                 "props": [
@@ -341,12 +341,12 @@
             ]
           },
           {
-            "uuid": "1816afa5-e6ee-4c31-96e5-c3a491766d33",
-            "source": "https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+            "uuid": "d60a6634-c980-4492-94ee-cb455ab2733b",
+            "source": "catalogs/NIST_SP-800-53_rev5_HIGH/NIST_SP-800-53_rev5_HIGH-baseline-resolved-profile_catalog.json",
             "description": "NIST r5",
             "implemented-requirements": [
               {
-                "uuid": "d6d5d46b-8f3b-4b27-a50a-2ccce577d2ba",
+                "uuid": "93bd721b-6ba1-4a6a-89b5-9eaf30ec7bee",
                 "control-id": "ac-4",
                 "description": "",
                 "props": [
@@ -408,7 +408,7 @@
                 ]
               },
               {
-                "uuid": "96ca4cc6-7362-400e-be28-242161a8eeb9",
+                "uuid": "6358aa48-b95b-4aa4-87eb-d4dafe316e1d",
                 "control-id": "ac-6",
                 "description": "",
                 "props": [
@@ -470,7 +470,7 @@
                 ]
               },
               {
-                "uuid": "f99c6c17-58a4-427d-8f8f-3f0b78704389",
+                "uuid": "590107c7-69dd-462f-a297-0e58c76fccee",
                 "control-id": "ac-3",
                 "description": "",
                 "props": [
@@ -512,13 +512,13 @@
                 ]
               },
               {
-                "uuid": "7a8776d5-d153-4d62-846d-8c77758172f7",
+                "uuid": "9545aa69-2560-4112-a6eb-352986e88716",
                 "control-id": "ac-2",
                 "description": "",
                 "statements": [
                   {
                     "statement-id": "ac-2_smt.d",
-                    "uuid": "b5381784-5021-4caa-a807-6cd62e3948b7",
+                    "uuid": "fd819e37-97a3-4e42-b92f-c3f744735fad",
                     "description": "",
                     "props": [
                       {
@@ -531,13 +531,13 @@
                 ]
               },
               {
-                "uuid": "eec828ce-d956-474b-bcb9-632214924928",
+                "uuid": "dffa0040-b2a9-4f11-9dbf-782bb2e7f0c0",
                 "control-id": "ac-5",
                 "description": "",
                 "statements": [
                   {
                     "statement-id": "ac-5_smt.c",
-                    "uuid": "eef17528-ce61-4788-acfd-6598b54b3206",
+                    "uuid": "6a075d71-b756-481e-9710-f369dfcb091b",
                     "description": "",
                     "props": [
                       {
@@ -550,7 +550,7 @@
                 ]
               },
               {
-                "uuid": "6707f3e9-d8e2-4305-97be-b84f7516096f",
+                "uuid": "2d345acd-f017-46f7-9adf-c9dadace37e5",
                 "control-id": "sc-5",
                 "description": "",
                 "props": [
@@ -562,13 +562,13 @@
                 ]
               },
               {
-                "uuid": "4c097891-a2f8-41c7-901c-890db99390dd",
+                "uuid": "6dbd96d8-a18b-4de3-941a-00f22995fd82",
                 "control-id": "cm-8.3",
                 "description": "",
                 "statements": [
                   {
                     "statement-id": "cm-8.3_smt.a",
-                    "uuid": "b1f52478-9d11-446c-89a9-721393413f98",
+                    "uuid": "cb409160-fd56-4f8d-a17e-a965d70d5f5c",
                     "description": "",
                     "props": [
                       {
@@ -586,7 +586,7 @@
                 ]
               },
               {
-                "uuid": "d4ef6e94-c92b-446e-b6a9-74431e433449",
+                "uuid": "03ba21cb-3b59-4888-b86a-aaf2a07b6e6a",
                 "control-id": "si-2.2",
                 "description": "",
                 "props": [
@@ -603,13 +603,13 @@
                 ]
               },
               {
-                "uuid": "431c81aa-82d4-4391-9584-03c866b142b1",
+                "uuid": "3442dd1d-9520-444d-8482-0ddfbe3ad3ef",
                 "control-id": "ia-5",
                 "description": "",
                 "statements": [
                   {
                     "statement-id": "ia-5_smt.g",
-                    "uuid": "8b654e13-7385-4727-85d6-d9c458a95a94",
+                    "uuid": "175411fe-a651-45bf-9a8d-3897f6319f1b",
                     "description": "",
                     "props": [
                       {
@@ -622,7 +622,7 @@
                 ]
               },
               {
-                "uuid": "955957c7-2edf-4920-8d37-c44e817a56b5",
+                "uuid": "1fdfc201-0783-4cbb-9bb6-0f7cb9a115ce",
                 "control-id": "cp-2",
                 "description": "",
                 "props": [
@@ -634,7 +634,7 @@
                 ]
               },
               {
-                "uuid": "5b27f65f-519c-46b3-986f-80842654df1f",
+                "uuid": "36c3f32e-878f-40b3-8cb4-13ebc28e3fe5",
                 "control-id": "cp-9",
                 "description": "",
                 "props": [
@@ -646,7 +646,7 @@
                 ]
               },
               {
-                "uuid": "0f564235-30a8-4af4-ba78-784e42dab30e",
+                "uuid": "7cca92d8-78b4-4c5a-b418-71f9d197bcfd",
                 "control-id": "cp-10",
                 "description": "",
                 "props": [
@@ -662,7 +662,7 @@
         ]
       },
       {
-        "uuid": "a11ceb25-d068-4314-8545-0c93864c1b7a",
+        "uuid": "16e7040e-2a66-462c-bfd2-321ef7a3803a",
         "type": "validation",
         "title": "Kyverno",
         "description": "Kyverno",
